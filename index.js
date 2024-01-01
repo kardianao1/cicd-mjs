@@ -1,5 +1,4 @@
 const express = require('express');
-
 const app = express();
 
 app.get('/', (req, res) => {
@@ -16,7 +15,7 @@ app.get('/will', (req, res) => {
 
 app.get('/ready', (req, res) => {
   res.send({
-    response: 'Berhasill!!',
+    response: 'Berhasil!!',
   });
 });
 
