@@ -4,13 +4,13 @@ const app = express();
 
 app.get('/', (req, res) => {
   res.send({
-    response: 'Hello',
+    response: 'Hello saya kardi',
   });
 });
 
 app.get('/will', (req, res) => {
   res.send({
-    response: 'Kami membuat implementasi CI/CD',
+    response: 'Kami membuat implementasi CI/CD yang membanggongkan',
   });
 });
 
